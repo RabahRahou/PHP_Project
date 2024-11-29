@@ -1,0 +1,7 @@
+/* custom.css */
+.fixed-size {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    /* Optionnel, pour bien ajuster le contenu */
+}

@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}AccueilPaye Ton Dev
+{% endblock %}
+
+{% block body %}
+
+	<div class="row">
+		{% for i in 0..2%}
+			<div class="col">
+				<div class="card">
+					<img src="https://media.istockphoto.com/id/1351445530/fr/photo/%C3%A9tudiant-africain-assis-en-
+										classe.jpg?s=612x612&w=0&k=20&c=vhODzTeg7ePHN69EY2Mqw0tlowHmhZxRtJBNDgQwVkw=" class="img-fluid" width="200" height="400" alt=" "/>
+					<div class=" card-body">
+						<h4 class="card-title">Super Développeur Web</h4>
+						<p class="card-text">Compéténces</p>
+						<a href="#" class="btn btn-primary btn-sn">Détails</a>
+						<a href="#" class="btn btn-success btn-sn">Sauvegarder</a>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+	<divclass="example-wrapper">
+		<h1>Accueil</h1>
+
+		This friendly message is coming from:
+		<ul>
+			<li>Your controller at
+				<code>/home/rabah/L3 Miage/PW/PHP_Project/src/Controller/HomeController.php</code>
+			</li>
+			<li>Your template at
+				<code>/home/rabah/L3 Miage/PW/PHP_Project/templates/home/index.html.twig</code>
+			</li>
+		</ul>
+	</div>
+{% endblock %}
